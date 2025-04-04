@@ -13,14 +13,10 @@ We propose a novel methodology to jointly model the price dynamics of natural ga
 
 This repo provides the Python notebooks [step 1](), [step 2]() containing the code to implement the method we propose in the paper and covers all the steps of the following analytic workflow, divided in two steps:
 
-
-
-
-
 ## Getting the code
 You can download a copy of all the files in this repository by cloning the
-[git](https://github.com/cbaldassari/manifold) repository:
+[git](https://github.com/cbaldassari/unbalanced) repository:
 ```
-    git clone https://github.com/cbaldassari/manifold
+    git clone https://github.com/cbaldassari/unbalanced
 ```
 or [download a zip archive](https://github.com/cbaldassari/manifold/archive/refs/heads/main.zip).
