@@ -1,8 +1,9 @@
 # Information-driven modeling of energy markets: an unbalanced Wasserstein barycenter approach
 
 by
-Cristiano Baldassari,
-Carlo Mari.
+Carlo Mari, 
+Cristiano Baldassari.
+
 
 ## Abstract
 
