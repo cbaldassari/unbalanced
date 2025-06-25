@@ -23,8 +23,8 @@ This repository provides the full implementation of the methodology proposed in 
 ## Getting Started
 
 ```bash
-git clone https://github.com/yourusername/energy-wasserstein-model.git
-cd energy-wasserstein-model
+git clone https://github.com/cbaldassari/unbalanced.git
+cd unbalanced
 pip install -r requirements.txt
 ```
 
