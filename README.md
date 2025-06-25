@@ -40,6 +40,3 @@ Main packages:
 - `gensim` (for embedding models)
 - `Diff2Vec` or custom embedding logic
 
-## License
-
-MIT License
