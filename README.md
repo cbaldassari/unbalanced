@@ -11,7 +11,7 @@ Implementation of the paper: **"Information-driven modeling of energy markets: a
 This repository implements the **5-step pipeline** described in the paper to analyze natural gas and electricity prices:
 
 ### Step 1: Preprocessing
-Load and normalize detrended log-returns
+Inject and compute normalized detrended log-returns
 
 ### Step 2: Visibility Graphs  
 Transform time series into graphs
@@ -52,7 +52,7 @@ Execute in order:
 
 ##  Data
 
-** Data already included!**
+** Data already included! Available freely on mercatoelettrico.org**
 
 Files in `data/`:
 - `logret_gas.dat` - Natural gas log-returns (2019-2023)  
