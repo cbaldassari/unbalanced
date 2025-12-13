@@ -10,12 +10,8 @@ Implementation of the paper: **"Information-driven modeling of energy markets: a
 
 This repository implements the **5-step pipeline** described in the paper to analyze natural gas and electricity prices:
 
-```
-Data → LOESS → Graphs → Embedding → Wasserstein → GMM
-```
-
 ### Step 1: Preprocessing
-Load and normalize log-returns
+Load and normalize detrended log-returns
 
 ### Step 2: Visibility Graphs  
 Transform time series into graphs
@@ -78,7 +74,6 @@ This reflects the European market structure!
 
 ## 📧 Contact
 
-- Carlo Mari: carlo.mari@unitus.it
 - Cristiano Baldassari: cristiano.baldassari@unitus.it
 
 ---
