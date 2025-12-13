@@ -2,20 +2,16 @@
 
 Implementation of the paper: **"Information-driven modeling of energy markets: an unbalanced Wasserstein barycenter approach"**
 
-**Authors**: Carlo Mari, Emiliano Mari, Cristiano Baldassari (University of Tuscia)
+**Authors**: Carlo Mari, Emiliano Mari, Cristiano Baldassari (University of Tuscia; Sydus)
 
 ---
 
-## 📋 Overview
+## Overview
 
 This repository implements the **5-step pipeline** described in the paper to analyze natural gas and electricity prices:
 
-```
-📊 Data → 🔧 LOESS → 🕸️ Graphs → 🎯 Embedding → ⚖️ Wasserstein → 📈 GMM
-```
-
 ### Step 1: Preprocessing
-Load and normalize log-returns
+Inject and compute normalized detrended log-returns
 
 ### Step 2: Visibility Graphs  
 Transform time series into graphs
@@ -31,7 +27,7 @@ Model joint distribution
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Install Dependencies
 
@@ -46,7 +42,7 @@ jupyter notebook
 ```
 
 Execute in order:
-1. `01_preprocessing.ipynb` - Load data and normalize
+1. `01_preprocessing.ipynb` - Load data, detrending with LOESS, detrended and and normalized log-returns 
 2. `02_visibility_graphs.ipynb` - Build graphs
 3. `03_embeddings.ipynb` - Diff2Vec embeddings
 4. `04_wasserstein.ipynb` - Optimal barycenter
@@ -54,9 +50,9 @@ Execute in order:
 
 ---
 
-## 📥 Data
+##  Data
 
-**✅ Data already included!**
+** Data already included! Available freely on mercatoelettrico.org**
 
 Files in `data/`:
 - `logret_gas.dat` - Natural gas log-returns (2019-2023)  
@@ -66,7 +62,7 @@ Files in `data/`:
 
 ---
 
-## 📊 Main Result
+## Main Result
 
 The method automatically finds:
 - Natural gas weight: **65%** (dominant)
@@ -76,13 +72,12 @@ This reflects the European market structure!
 
 ---
 
-## 📧 Contact
+## Contact
 
-- Carlo Mari: carlo.mari@unitus.it
 - Cristiano Baldassari: cristiano.baldassari@unitus.it
 
 ---
 
-## 📄 License
+## License
 
 MIT License - Feel free to use this code
