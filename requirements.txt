@@ -1,0 +1,20 @@
+# Core
+numpy
+pandas
+matplotlib
+scipy
+
+# Statistical
+statsmodels
+
+# Optimal Transport
+POT
+
+# Graph & ML
+networkx
+karateclub
+ts2vg
+scikit-learn
+
+# Jupyter
+jupyter
