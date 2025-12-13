@@ -27,7 +27,7 @@ Model joint distribution
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Install Dependencies
 
@@ -72,12 +72,12 @@ This reflects the European market structure!
 
 ---
 
-## 📧 Contact
+## Contact
 
 - Cristiano Baldassari: cristiano.baldassari@unitus.it
 
 ---
 
-## 📄 License
+## License
 
 MIT License - Feel free to use this code
