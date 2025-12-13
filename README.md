@@ -2,7 +2,7 @@
 
 Implementation of the paper: **"Information-driven modeling of energy markets: an unbalanced Wasserstein barycenter approach"**
 
-**Authors**: Carlo Mari, Emiliano Mari, Cristiano Baldassari (University of Tuscia)
+**Authors**: Carlo Mari, Emiliano Mari, Cristiano Baldassari (University of Tuscia; Sydus)
 
 ---
 
