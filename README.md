@@ -6,7 +6,7 @@ Implementation of the paper: **"Information-driven modeling of energy markets: a
 
 ---
 
-## 📋 Overview
+## Overview
 
 This repository implements the **5-step pipeline** described in the paper to analyze natural gas and electricity prices:
 
