@@ -11,7 +11,7 @@ Implementation of the paper: **"Information-driven modeling of energy markets: a
 This repository implements the **5-step pipeline** described in the paper to analyze natural gas and electricity prices:
 
 ```
-📊 Data → 🔧 LOESS → 🕸️ Graphs → 🎯 Embedding → ⚖️ Wasserstein → 📈 GMM
+Data → LOESS → Graphs → Embedding → Wasserstein → GMM
 ```
 
 ### Step 1: Preprocessing
@@ -46,7 +46,7 @@ jupyter notebook
 ```
 
 Execute in order:
-1. `01_preprocessing.ipynb` - Load data and normalize
+1. `01_preprocessing.ipynb` - Load data, detrending with LOESS, detrended and and normalized log-returns 
 2. `02_visibility_graphs.ipynb` - Build graphs
 3. `03_embeddings.ipynb` - Diff2Vec embeddings
 4. `04_wasserstein.ipynb` - Optimal barycenter
@@ -54,9 +54,9 @@ Execute in order:
 
 ---
 
-## 📥 Data
+##  Data
 
-**✅ Data already included!**
+** Data already included!**
 
 Files in `data/`:
 - `logret_gas.dat` - Natural gas log-returns (2019-2023)  
@@ -66,7 +66,7 @@ Files in `data/`:
 
 ---
 
-## 📊 Main Result
+## Main Result
 
 The method automatically finds:
 - Natural gas weight: **65%** (dominant)
