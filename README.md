@@ -52,7 +52,7 @@ Execute in order:
 
 ##  Data
 
-** Data already included! Available freely on mercatoelettrico.org**
+Data already included andav available freely on mercatoelettrico.org
 
 Files in `data/`:
 - `logret_gas.dat` - Natural gas log-returns (2019-2023)  
